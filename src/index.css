@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.app {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  float: left;
+  width: 40%;
+}
+
+.option {
+  width: 30rem;
+}
+
+.option:last-child {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 25rem;
+}
+
+.option:last-child .option__label {
+  display: flex;
+}
+
+.option__input-range {
+  width: 100%;
+}
+
+.chart {
+  float: right;
+  position: absolute;
+  top: 10rem;
+  right: 0;
+}
+
+.heading {
+  /* margin-bottom: 7.6rem; */
+  margin-top: 8.3rem;
+  text-align: center;
+}
+
+.heading__title {
+  margin-bottom: 3rem;
+}
+
+.heading__subtitle {
+  margin-bottom: 7.6rem;
+}
